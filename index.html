@@ -14,22 +14,42 @@
     <title>Frontend Mentor | Pod request access landing page</title>
   </head>
   <body>
-    <img src="./assets/desktop/logo.svg" alt="logo" />
+    <img src="./assets/desktop/logo.svg" alt="logo" id="podLogo" />
     <div class="main">
-      Publish your podcasts everywhere. Upload your audio to Pod with a single
-      click. We’ll then distribute your podcast to Spotify, Apple Podcasts,
-      Google Podcasts, Pocket Casts and more!
+      <h1>Publish your podcasts <span>everywhere.</span></h1>
+      <p>
+        Upload your audio to Pod with a single click. We’ll then distribute your
+        podcast to Spotify, Apple Podcasts, Google Podcasts, Pocket Casts and
+        more!
+      </p>
       <form action="#URL">
-        <input type="email" name="email" id="email" placeholder="Email address">
-        <input type="submit" name="submit" id="submit" value="Request Access">
+        <input
+          type="text"
+          name="email"
+          id="email"
+          placeholder="Email address"
+        />
+        <input type="submit" name="submit" id="submit" value="Request Access" />
       </form>
-      <img src="./assets/desktop/spotify.svg" alt="Spotify icon">
-      <img src="./assets/desktop/apple-podcast.svg" alt="Apple podcast icon">
-      <img src="./assets/desktop/google-podcasts.svg" alt="Google podcast icon">
-      <img src="./assets/desktop/pocket-casts.svg" alt="Pocket Casts icon">
+      <div class="logos">
+        <img src="./assets/desktop/spotify.svg" alt="Spotify icon" />
+        <img
+          src="./assets/desktop/apple-podcast.svg"
+          alt="Apple podcast icon"
+        />
+        <img
+          src="./assets/desktop/google-podcasts.svg"
+          alt="Google podcast icon"
+        />
+        <img src="./assets/desktop/pocket-casts.svg" alt="Pocket Casts icon" />
+      </div>
     </div>
-    <img src="./assets/desktop/image-host.jpg" alt="Image with the host">
-    <img src="./assets/desktop/bg-pattern-dots.svg" alt="Pattern with dots">
-    <link rel="stylesheet" href="./app.js" />
+    <div class="host"></div>
+    <img
+      src="./assets/desktop/bg-pattern-dots.svg"
+      alt="Pattern with dots"
+      id="dots"
+    />
+    <script src="./app.js"></script>
   </body>
 </html>
