@@ -172,3 +172,51 @@ p.error {
   margin-bottom: 42px;
   margin-left: 32px;
 }
+
+@media (min-width: 400px) and (max-width: 1350px) {
+  #podLogo {
+    position: absolute;
+    width: 134.85px;
+    height: 56px;
+    /* In this calc function I've added 103.15px to the wodth of the host container. */
+    right: calc(491px + 103.15px);
+    top: 50px;
+    transform: translate(0, 10%);
+  }
+
+  .main {
+    position: absolute;
+    width: 635px;
+    height: 509px;
+    right: 94px;
+    top: 260px;
+    z-index: 1;
+    background-color: #121725;
+  }
+
+  .host {
+    position: absolute;
+    width: 491px;
+    height: 767px;
+    top: 0;
+    right: 0;
+    background: url(./assets/tablet/image-host.jpg);
+  }
+
+  #dots {
+    position: absolute;
+    width: 232px;
+    height: 104px;
+    bottom: -205px;
+    right: 506px;
+  }
+
+  h1 {
+    width: 635px;
+    height: 112px;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 56px;
+    margin: 88px 58px 7px 0;
+  }
+}
