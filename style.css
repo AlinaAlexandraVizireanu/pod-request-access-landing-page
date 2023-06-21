@@ -53,8 +53,7 @@ body {
   width: 232px;
   height: 104px;
   right: 0;
-  /* In this calc function I've positioned the dots logo right on the bottom level of the host container. */
-  top: calc(5% + 640px);
+  bottom: 0;
   transform: translate(0, 50%);
 }
 
