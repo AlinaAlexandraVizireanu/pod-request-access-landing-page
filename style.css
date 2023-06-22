@@ -162,6 +162,7 @@ form {
 
 p.error {
   height: 14px;
+  width: 175px;
   font-family: "Chivo";
   font-style: normal;
   font-weight: 400;
@@ -218,5 +219,113 @@ p.error {
     font-size: 48px;
     line-height: 56px;
     margin: 88px 58px 7px 0;
+  }
+}
+
+@media (max-width: 400px) {
+  body {
+    position: relative;
+    background-image: url(./assets/mobile/image-host.jpg);
+  }
+
+  body::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(18, 23, 37, 0.9);
+  }
+
+  .host {
+    display: none;
+  }
+
+  #podLogo {
+    right: 120.15px;
+    top: 92px;
+  }
+
+  .main {
+    background: transparent;
+    position: absolute;
+    width: 327px;
+    height: 398px;
+    right: 24px;
+    top: 175px;
+    z-index: 1;
+  }
+
+  h1 {
+    width: 327px;
+    height: 76px;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 38px;
+    text-align: center;
+    margin: 0 0 16px 0;
+  }
+
+  p {
+    width: 327px;
+    height: 100px;
+    margin-top: 0;
+    margin-bottom: 40px;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+  }
+
+  .logos {
+    position: absolute;
+    /* In this calc function I've added the height of the form container
+   to the distance between form container and logos container. */
+    bottom: calc(108px + 48px);
+    width: 315px;
+    height: 17px;
+    margin-top: 0;
+  }
+
+  .logos img:nth-child(1) {
+    width: 55.94px;
+    height: 16.95px;
+  }
+
+  .logos img:nth-child(2) {
+    width: 45px;
+    height: 17px;
+  }
+
+  .logos img:nth-child(3) {
+    width: 73px;
+    height: 11px;
+  }
+
+  .logos img:nth-child(4) {
+    width: 77px;
+    height: 15px;
+  }
+
+  form {
+    width: 327px;
+    height: 108px;
+    margin-top: 98px;
+  }
+
+  #email {
+    position: static;
+    box-sizing: border-box;
+    width: 327px;
+    height: 46px;
+    padding: 9px 200px 9px 32px;
+  }
+
+  #submit {
+    position: static;
+    width: 326px;
+    height: 46px;
+    margin: 16px 0 0 0;
+    padding: 9px 109px;
   }
 }
