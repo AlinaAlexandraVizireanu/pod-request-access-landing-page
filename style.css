@@ -15,9 +15,7 @@ body {
   position: absolute;
   width: 134.85px;
   height: 56px;
-  /* In calc function I've positioned the logo to the right in relation with main content and then
-  I've added to the width of main container - it's own width. */
-  right: calc(962px - 962px / 3 - 12px + 723px - 134.85px);
+  left: 165px;
   /* In this calc function for top positioning, I've positioned the logo to the same level as the host container. */
   top: calc(50% - 640px / 2);
   transform: translate(0, -50%);
@@ -30,10 +28,7 @@ body {
   /* In this calc function I've positioned the main container to the same level as host container,
   and then I've added the difference between height of host container and height of main container. */
   top: calc(50% - 640px / 2 + 131px);
-  /* In this calc function I've positioned the main container right next to the host container,
-  then I've substracted 1/3 of the dimension of the host container,
-  and then I've substracted another 12px. */
-  right: calc(962px - 962px / 3 - 12px);
+  left: 165px;
   z-index: 1;
   background-color: #121725;
 }
