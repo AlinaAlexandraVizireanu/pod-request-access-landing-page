@@ -30,12 +30,15 @@ Users should be able to:
 ### Screenshot
 
 Desktop Version
+
 ![Desktop version](./solution_screenshots/DesktopVersion.jpg)
 
 Tablet Version
+
 ![Tablet version](./solution_screenshots/TabletVersion.jpg)
 
 Mobile Version
+
 ![Mobile version](./solution_screenshots/MobileVersion.jpg)
 
 ### Links
