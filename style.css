@@ -45,7 +45,9 @@ body {
   /* In this calc function I've centered the container vertically. */
   top: calc(50% - 640px / 2);
   right: 0;
-  background: no-repeat url(./assets/desktop/image-host.jpg);
+  background-image: url(./assets/desktop/image-host.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 #dots {
