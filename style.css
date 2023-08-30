@@ -329,3 +329,35 @@ p.error {
     padding: 9px 109px;
   }
 }
+
+@media (max-width: 330px) {
+  .main {
+    width: 95%;
+  }
+
+  h1,
+  p,
+  form,
+  .logos,
+  #email,
+  #submit {
+    width: 100%;
+  }
+
+  p {
+    margin-top: 50px;
+  }
+
+  .logos{
+    flex-wrap: wrap;
+    bottom: 108px;
+  }
+
+  #email{
+    padding-right: 0;
+  }
+
+  #submit{
+    padding: 0;
+  }
+}
